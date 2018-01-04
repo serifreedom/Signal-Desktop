@@ -50,6 +50,12 @@ function createTemplate(options, messages) {
     label: messages.mainMenuView.message,
     submenu: [
       {
+        role: 'reload'
+      },
+      {
+        role: 'forcereload'
+      },
+      {
         role: 'resetzoom',
       },
       {
