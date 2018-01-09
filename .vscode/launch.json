@@ -18,7 +18,7 @@
             "name": "Launch Program",
             "program": "${workspaceFolder}/main.js"
         },
-        {
+        /* {
             "name": "Debug Main Process",
             "type": "node",
             "request": "launch",
@@ -43,7 +43,7 @@
                 "--remote-debugging-port=9222"
             ],
             "webRoot": "${workspaceRoot}"
-        },
+        }, */
         {
             "type": "node",
             "request": "launch",
